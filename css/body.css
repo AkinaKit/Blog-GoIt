@@ -1,4 +1,7 @@
-header {
+* {
+    margin: 0;
+}
+header {header {
     padding-top: 50px;
     padding-bottom: 100px;
 }
@@ -13,14 +16,21 @@ header a {
     text-transform: uppercase;
 }
 
+main,
 header ul {
     width: 800px;
     margin: 0 auto;
+}
+
+/* section */
+section {
+    padding: 30px 15px 30px 15px;
 }
 .section-title {
     text-transform: uppercase;
 }
 .section-inner {
+    display: flex;
     justify-content: space-around;
 }
 .section-inner div {
