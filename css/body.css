@@ -1,7 +1,7 @@
 * {
     margin: 0;
 }
-header {header {
+header {
     padding-top: 50px;
     padding-bottom: 100px;
 }
@@ -36,9 +36,9 @@ section {
 .section-inner div {
     padding: 15px 10px;
 }
-.section-inner h2 {
+.section-inner h3 {
     text-transform: uppercase;
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
